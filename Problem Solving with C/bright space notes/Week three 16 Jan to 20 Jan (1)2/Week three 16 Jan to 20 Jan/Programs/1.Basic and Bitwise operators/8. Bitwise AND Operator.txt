@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() 
+{
+    int a = 12, b = 25;
+    printf("Output = %d", a & b);
+
+    return 0;
+}
+
+o/p: 8
+
+
+Explanation :-
+12 = 00001100 (In Binary)
+25 = 00011001 (In Binary)
+
+Bit Operation of 12 and 25
+   0 0 0 0 1 1 0 0
+& 0 0 0 1 1 0 0 1
+   ____________
+   0 0 0 0 1 0 0 0  = 8 (In decimal)

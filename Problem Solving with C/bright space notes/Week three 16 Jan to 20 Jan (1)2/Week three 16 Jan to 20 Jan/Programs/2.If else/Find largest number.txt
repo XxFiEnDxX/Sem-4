@@ -1,0 +1,29 @@
+/* Program to take certain numbers as input from the user and 
+then calculating from those numbers the largest and 
+then giving the result whether or not it is greater or equal after manipulation with nested if statement.*/
+
+#include <stdio.h>
+void main()
+{
+int n1, n2;
+printf("Get value for n1:");
+scanf("%d", n1);
+printf("Get value for n2:");
+scanf("%d",&n2);
+if (n1 != n2)
+{
+printf("n1 is not equal to n2\n");
+if (n1 > n2)
+{
+printf("n1 is larger than n2\n");
+}
+else
+{
+printf("n2 is larger than n1\n");
+}
+}
+else
+{
+printf("n1 is equal to n2\n");
+}
+}

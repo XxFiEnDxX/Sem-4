@@ -1,0 +1,13 @@
+#!/bin/bash
+
+read n
+((even = 1))
+for((i=0; i<n; i++))
+do
+	for((j=0; j<even; j++))
+	do
+		echo -n "*"
+	done
+	((even=even+even))
+	echo
+done

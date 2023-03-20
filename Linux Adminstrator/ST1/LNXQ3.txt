@@ -1,0 +1,26 @@
+Q1)
+-Display the text from file.txt with line numbers (including blank lines) 
+-Display the text from file.txt with line numbers (excluding blank lines) 
+-Display the count of words in file.txt 
+-Display the count of character in file.txt 
+-Display only starting 5 lines from file.txt 
+Ans->
+1.	cat -n file.txt
+2.	nl file.txt
+3.	wc -w file.txt
+4.	wc -c file.txt
+5.	head -5 file.txt
+
+Q2)
+-Find pattern “abc” from the test.txt 
+-Display the count of “hi” in the file test.txt 
+-Display all lines which are not containing “hello” in it from file test.txt 
+-Display text containing ‘hi’ with line numbers from test.txt 
+-Display the count of ‘hello’ irrespective of it’s case (lower / upper) 
+Ans->
+1.	grep ‘abc’ test.txt
+2.	grep -c ‘hi’ test.txt
+3.	grep -v ‘hello’ test.txt
+4.	grep -n ‘hi’ test.txt
+
+5.	grep -ic ‘hello’ test.txt

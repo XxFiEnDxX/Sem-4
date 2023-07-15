@@ -1,0 +1,1 @@
+{"name":"Local: Output","url":"g:\\My Drive\\STUDY\\Sem-4\\JAVA\\Java\\Output.java","tests":[{"id":1685991746704,"input":"5\n1 3 5 7 9\n5\n2 4 6 8 10","output":"1 2 3 4 5 6 7 8 9 10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"g:\\My Drive\\STUDY\\Sem-4\\JAVA\\Java\\Output.java","group":"local","local":true}
